@@ -1,0 +1,27 @@
+@media screen and (max-width:940px) {
+    .bio .container {
+        grid-template-columns: 1fr;
+    }
+
+    .bio .container {
+        width: 100%;
+    }
+
+    .bio .container img {
+        padding: 0rem;
+        width: 90vw;
+    }
+
+    .bio .container .col-2 {
+        padding: 0;
+    }
+
+    .bio button {
+        margin-bottom: 1rem;
+    }
+}
+
+.bio {
+    background-image: url(../../../assets/imgs/bannerImageEditHome.jpg);
+    width: 100%;
+}
